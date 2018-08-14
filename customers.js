@@ -1,3 +1,5 @@
+/* eslint no-unused-vars: "off" */
+
 const customers = [
   {
     'gender': 'male',
@@ -9,7 +11,7 @@ const customers = [
     'location': {
       'street': '8073 rolling green rd',
       'city': 'south valley',
-      'state': 'missouri',
+      'state': 'msouri',
       'postcode': 99356
     },
     'email': 'curtis.ryan@example.com',
@@ -74,7 +76,7 @@ const customers = [
   }, {
     'gender': 'female',
     'name': {
-      'title': 'miss',
+      'title': 'ms',
       'first': 'christine',
       'last': 'cooper'
     },
@@ -123,7 +125,7 @@ const customers = [
     'email': 'norman.henderson@example.com',
     'login': {
       'username': 'ticklishswan439',
-      'password': 'titman',
+      'password': 'birdman',
       'salt': 'pwIED2xB',
       'md5': 'dbfcc403233bfbe49e02d0bbf9341ca6',
       'sha1': 'fec544859b5af7176c384747791d96924fc68332',
@@ -182,7 +184,7 @@ const customers = [
   }, {
     'gender': 'female',
     'name': {
-      'title': 'mrs',
+      'title': 'ms',
       'first': 'pauline',
       'last': 'hughes'
     },
@@ -290,7 +292,7 @@ const customers = [
   }, {
     'gender': 'female',
     'name': {
-      'title': 'miss',
+      'title': 'ms',
       'first': 'ann',
       'last': 'beck'
     },
@@ -326,7 +328,7 @@ const customers = [
   }, {
     'gender': 'female',
     'name': {
-      'title': 'mrs',
+      'title': 'ms',
       'first': 'harper',
       'last': 'morales'
     },
@@ -362,7 +364,7 @@ const customers = [
   }, {
     'gender': 'female',
     'name': {
-      'title': 'miss',
+      'title': 'ms',
       'first': 'tammy',
       'last': 'hill'
     },
@@ -398,7 +400,7 @@ const customers = [
   }, {
     'gender': 'female',
     'name': {
-      'title': 'mrs',
+      'title': 'ms',
       'first': 'addison',
       'last': 'graves'
     },
@@ -433,5 +435,3 @@ const customers = [
     'nat': 'US'
   }
 ]
-
-export default customers
