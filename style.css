@@ -1,3 +1,52 @@
-.customerDiv {
-    
+#containerDiv {
+    margin: 0 auto; 
+    max-width: 85%;
+    font-family: Source Sans Pro, Oswald, sans-serif;
 }
+
+.customerDiv {
+    max-width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 15px 20px;
+    font-size: 15px;
+}
+
+.hoverImg{
+    display: none;
+}
+
+img {
+    height: 150px;
+    border-radius: 60px 90px;
+}
+
+
+
+h2 {
+    height: 25px;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.emailDiv {
+    margin: 10px 0px;
+    color: gray;
+    text-align: center;
+}
+
+.addressDiv, .phoneDiv {
+    margin: 10px 0px;
+
+}
+
+.registerDiv {
+    font-size: 14px
+}
+
+.photoDiv:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
